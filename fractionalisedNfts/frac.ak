@@ -132,11 +132,8 @@ validator(owner: VerificationKeyHash, cs: value.PolicyId) {
           owner,
         )
       }
-      // tx signed by owner
-      // output contains single token (policyID)
       _ -> tx_signed_by(c.transaction, owner)
     }
-    // tx signed by owner
   }
 }
 
