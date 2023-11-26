@@ -22,7 +22,6 @@ fn make_token_names(tn) -> List<value.AssetName> {
   let tokenName: value.AssetName = tn
   let refTn = tokenName
   let fracTn = tokenName
-  // returns
   [refTn, fracTn]
 }
 
