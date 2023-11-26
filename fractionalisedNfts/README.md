@@ -17,11 +17,11 @@ All of the helper functions are in the `okapi.ak` file, including the examples b
 
 ## How To Run
 
-To run these contracts for yourself, refer to the main README.md of the YouTube Repo.
+To run these contracts for yourself, refer to the main [README.md](../README.md) of the YouTube Repo.
 
 You will need to install Aiken, Deno and you will need to create a pair of wallets, refer to aiken docs for the scripts to do this ([with Lucid](https://aiken-lang.org/example--hello-world/end-to-end/lucid))
 
-once you have an aiken prokect set up, put the okapi file in your `lib` directory, and the `frac.ak` in the validators directory.
+Once you have an aiken prokect set up, put the `okapi` file in your `lib` directory, and the `frac.ak` in the validators directory.
 
 ## Purpose
 
