@@ -41,5 +41,5 @@ The functions often take in a `ScriptContext` and work from there. This is about
 
 These functions even call each other!
 
-I will be sharing specific helper functions in each directory that are used to make writing the code faster and easier to explain, but you definitely should avoid using them as they are shown in these tutorial repos because it will bloat your contracts very quickly.
+I will be sharing specific helper functions in each directory that are used to make writing the code faster and easier to explain, but you should avoid using them as they are shown in these tutorial repos because it will bloat your contracts very quickly.
 
