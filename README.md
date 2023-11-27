@@ -30,3 +30,16 @@ eg:
 ## Example Contracts
 
 [Fractionalised NFT](./fractionalisedNfts/README.md)
+
+## A Note On Okapi
+
+Okapi is a library of helper functions I am building, right now it is in the early stages and none of the functions are optimised for performance. Instead I have just built functionality into a lot of them and completely disregarded performance. 
+
+None of these helper functions should be used on mainnet until its official release as a library.
+
+The functions often take in a `ScriptContext` and work from there. This is about as low an efficiency as we can get with smart contracts. 
+
+These functions even call each other!
+
+I will be sharing specific helper functions in each directory that are used to make writing the code faster and easier to explain, but you definitely should avoid using them as they are shown in these tutorial repos because it will bloat your contracts very quickly.
+
