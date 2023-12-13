@@ -47,7 +47,7 @@ validator(o: VerificationKeyHash) {
         |> tokens(policy_id)
         |> to_list()
 
-    has(extra_signatories, o)
+    expect has(extra_signatories, o)
     when r.a is {
       1 ->
         any(
